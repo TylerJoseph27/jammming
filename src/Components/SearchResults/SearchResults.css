@@ -1,0 +1,54 @@
+.SearchResults {
+  width: 50%;
+  height: 950px;
+  padding: .88rem;
+  background-color: rgba(1, 12, 63, 0.7);
+  box-shadow: 0 4px 2px 2px #000000;
+}
+
+.SearchResults h2 {
+  margin-bottom: 0.5rem;
+}
+
+.TrackContainer {
+  height: 70%;
+  overflow-y: scroll;
+}
+
+.PlaylistContainer {
+  height: 20%;
+  margin-top: 1rem;
+}
+
+.PlaylistContainer h2 {
+  margin-bottom: 1rem;
+}
+
+.LocalPlaylists {
+  height: 100%;
+  overflow-y: scroll;
+}
+
+.LocalPlaylists h3 {
+  cursor: pointer;
+  padding: 1rem 0.5rem;
+  border-bottom: 1px solid rgba(256, 256, 256, 0.8);
+  transition: 0.25s;
+}
+
+.LocalPlaylists h3:hover {
+  background-color: #6c41ec;
+  border-bottom: 1px solid rgba(256, 256, 256, 0);
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+}
+
+@media only screen and (max-width: 1020px) {
+  .SearchResults {
+    width: 90%;
+    margin-bottom: 2rem;
+  }
+}
