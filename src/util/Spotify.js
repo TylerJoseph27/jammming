@@ -4,7 +4,7 @@ let expirationTime;
 const accessTokenRegEx = /access_token=([^&]*)/;
 const expirationRegEx = /expires_in=([^&]*)/;
 const clientID = 'aad786ed32354277b723aa072cc2fe53';
-const redirectURI= 'http://localhost:3000/';
+const redirectURI= 'https://tylerjoseph27-jammming.netlify.app/';
 
 let userID;
 
